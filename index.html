@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LuxeGlow Hair & Beauty Studio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <meta name="description" content="LuxeGlow Hair & Beauty Studio – premium salon services with instant online booking.">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Luxe<span>Glow</span></div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#booking">Contact</a>
+      <a href="#booking" class="nav-cta">Book Now</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Look Confident.<br>Feel Beautiful.</h1>
+      <p>
+        Premium hair & beauty services designed for modern lifestyles.
+        Book your transformation in under 30 seconds.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#booking" class="btn-primary">Book Appointment</a>
+        <a href="https://wa.me/919999999999" target="_blank" class="btn-secondary">
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Hair Styling & Coloring</h3>
+        <p>Precision cuts, balayage, highlights & premium coloring.</p>
+        <a href="#booking">Book Now →</a>
+      </div>
+
+      <div class="service-card">
+        <h3>Skin & Facial Treatments</h3>
+        <p>Glow-enhancing facials using dermatologist-approved products.</p>
+        <a href="#booking">Book Now →</a>
+      </div>
+
+      <div class="service-card">
+        <h3>Bridal & Occasion Makeup</h3>
+        <p>Flawless, camera-ready looks for your special moments.</p>
+        <a href="#booking">Book Now →</a>
+      </div>
+
+      <div class="service-card">
+        <h3>Grooming & Spa</h3>
+        <p>Relaxing spa treatments designed to refresh & restore.</p>
+        <a href="#booking">Book Now →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery">
+    <h2 class="section-title">Our Studio</h2>
+    <div class="gallery-grid">
+      <img src="images/gallery1.jpg" alt="Salon Interior">
+      <img src="images/gallery2.jpg" alt="Hair Styling">
+      <img src="images/gallery3.jpg" alt="Beauty Treatment">
+      <img src="images/gallery4.jpg" alt="Salon Ambience">
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us">
+    <div class="why-content">
+      <h2>Why Choose LuxeGlow?</h2>
+      <ul>
+        <li>✔ Certified & experienced professionals</li>
+        <li>✔ Premium international beauty products</li>
+        <li>✔ Hygienic, modern & relaxing environment</li>
+        <li>✔ 5-star rated customer experience</li>
+      </ul>
+      <a href="#booking" class="btn-primary">Book Your Appointment</a>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="testimonials">
+    <h2 class="section-title">What Our Clients Say</h2>
+
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p>“Absolutely loved the experience. Booking was easy and the results were stunning!”</p>
+        <span>— Ananya R.</span>
+      </div>
+      <div class="testimonial-card">
+        <p>“Luxury service at its best. Highly recommend LuxeGlow to anyone.”</p>
+        <span>— Rahul M.</span>
+      </div>
+      <div class="testimonial-card">
+        <p>“From consultation to final look, everything was perfect.”</p>
+        <span>— Priya S.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="section-divider"></div>
+
+  <!-- BOOKING -->
+  <section id="booking" class="booking">
+    <h2 class="section-title">Book Your Appointment</h2>
+
+    <form class="booking-form"
+      action="https://formsubmit.co/youremail@example.com"
+      method="POST">
+
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_autoresponse"
+        value="Thank you for booking with LuxeGlow! We’ll contact you shortly to confirm your appointment.">
+
+      <div class="form-grid">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+
+        <select name="service" required>
+          <option value="">Select Service</option>
+          <option>Hair Styling & Coloring</option>
+          <option>Skin & Facial Treatments</option>
+          <option>Bridal & Occasion Makeup</option>
+          <option>Grooming & Spa</option>
+        </select>
+
+        <input type="date" name="date" required>
+      </div>
+
+      <button type="submit" class="btn-primary full-width">
+        Confirm Booking
+      </button>
+
+      <p class="form-note">We respect your privacy. No spam, ever.</p>
+    </form>
+  </section>
+
+  <!-- WHATSAPP -->
+  <a href="https://wa.me/919999999999"
+     class="whatsapp-float"
+     target="_blank"
+     aria-label="Chat on WhatsApp">💬</a>
+
+     <script src="js/main.js"></script>
+
+</body>
+</html>
