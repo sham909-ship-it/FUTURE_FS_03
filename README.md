@@ -64,7 +64,7 @@ FUTURE_FS_03/
 ## 🚀 Live Demo
 
 🔗 **Live Website:**  
-(Add your Netlify link here)
+https://serene-mandazi-f3c50c.netlify.app/
 
 ---
 
